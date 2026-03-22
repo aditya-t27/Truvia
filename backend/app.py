@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model  # type: ignore
 from tensorflow.keras.preprocessing import image  # type: ignore
 import numpy as np  # type: ignore
 
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
