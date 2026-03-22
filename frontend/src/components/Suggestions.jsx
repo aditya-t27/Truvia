@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchQuote, fetchActivity, fetchMindfulnessExercise } from "../../api/apiUtils";
+import { fetchQuote, fetchActivity, fetchMindfulnessExercise } from "../api/apiUtils";
 
 export default function Suggestions({ detectedMood }) {
      const [mood, setMood] = useState(detectedMood || "sad"); // Default mood is "happy"
